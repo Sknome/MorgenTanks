@@ -1,0 +1,111 @@
+
+    /* montserrat-regular - latin_cyrillic */
+    @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''),
+            url('../fonts/montserrat-extrabold.ttf') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/montserrat-extrabold.ttf') format('woff'), /* Modern Browsers */
+
+      }
+      @font-face {
+        font-family: 'Montserrati';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''),
+            url('../fonts/montserrat-light.ttf') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/montserrat-light.ttf') format('woff'), /* Modern Browsers */
+}
+html{background-color: whitesmoke;}
+
+     .first-section-container{
+         padding-top: 270px ;
+         padding-bottom: 110px;
+ 
+     }
+     .header{
+         padding-top: 30px;
+         padding-bottom: 60px;
+ 
+     }
+     .logo-header-img{
+         width: 320px;
+         position: relative;
+         left: 100px;
+         top: 8x;
+ 
+     }
+ 
+     .nav{
+         font-family: 'Montserrat';
+         font-size: 25px;
+         min-width: 160%;
+         max-width: 10%;
+         line-height: 2;
+         margin-left: 300px;
+         margin-right: 600px; 
+         position: relative;
+         left: 180px;
+       top: -70px;
+     }
+     .nav-item{  
+         display: inline; 
+         margin-right: 50px;  
+         position: relative;
+         text-decoration: none;
+         color: #373737;
+       
+     }
+     .nav-home{
+       background-color: #fe484f;
+         border-top: 90px solid #fe484f;
+       border-bottom: 50px solid #fe484f;
+       border-left: 25px solid #fe484f;
+       border-right: 25px solid #fe484f;
+       position: relative;
+       color: white;
+     }
+     .section-hero-heading{
+         font-family: 'Roboto Condensed', sans-serif;
+             font-size: 90px;
+            
+                position: relative;
+                top: -20px;
+                left: 735px;
+                display: block;
+                font-family: 'Roboto Condensed';
+                min-width: 160%;
+         max-width: 10%;
+                    }
+                    
+       .section-hero-description{
+        font-family:'Roboto Condensed' ;
+        font-size: 22px;
+        position: relative;
+            left: 780px;
+            top: -70px;
+            min-width: 160%;
+         max-width: 10%;
+       }      
+       .section-hero-description2
+       {
+        font-family:'Roboto Condensed' sans-serif;
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        margin-left: 450px;
+        margin-right: 450px;
+        top: -70px;
+       }
+       .logo-footer-img{
+           width: 200px;
+           position: relative;
+           left: 850px;
+           top: 60px;
+       }
+     
+   
+     
+     
+

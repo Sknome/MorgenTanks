@@ -17,6 +17,10 @@
             url('../fonts/montserrat-light.ttf') format('woff'), /* Modern Browsers */
 
       }
+      html{position: relative;
+        min-width: 320px;
+        overflow-x: hidden;
+        height: auto;}
     body{
         background-color: white;
           background: url("../img/main3.png") no-repeat;
@@ -86,8 +90,8 @@
         font-family:'Roboto Condensed' ;
         font-size: 50px;
         position: relative;
-    color: aliceblue;
-    left: -30px;
+         color: aliceblue;
+       left: -30px;
         top: -350px;
       width: 800px;
       height: 80px;
